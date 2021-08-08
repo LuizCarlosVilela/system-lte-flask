@@ -20,7 +20,7 @@ with app.app_context():
 def helloWorld():
     return render_template('login.html')
 
-@app.route('/login', methods=['POST'])
+@app.route('/dashboard', methods=['POST'])
 def login():
     return render_template('index.html')
 
